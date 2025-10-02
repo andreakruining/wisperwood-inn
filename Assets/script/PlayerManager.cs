@@ -30,6 +30,6 @@ public class PlayerManager : MonoBehaviour
     void FixedUpdate()
     {
         // Apply velocity to the Rigidbody2D
-        rb.velocity = moveInput * moveSpeed;
+        rb.linearVelocity = moveInput * moveSpeed;
     }
 }
